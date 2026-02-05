@@ -9,7 +9,9 @@ license = {text = "MIT"}
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "jsonpath-nz (>=1.0.6,<2.0.0)"
+    "jsonpath-nz (>=1.0.6,<2.0.0)",
+    "mqttd (>=0.5.0,<0.6.0)",
+    "redis[hiredis] (>=7.1.0,<8.0.0)"
 ]
 
 
