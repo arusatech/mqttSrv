@@ -1,0 +1,21 @@
+[project]
+name = "mqttsrv"
+version = "0.1.0"
+description = "MQTTD server for AI chatBot"
+authors = [
+    {name = "Yakub Mohammad",email = "yakub@annadata.ai"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "jsonpath-nz (>=1.0.6,<2.0.0)"
+]
+
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
